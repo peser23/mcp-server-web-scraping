@@ -14,7 +14,7 @@ async def search_serper(query: str) -> dict | None:
     
     payload = json.dumps({
         "q": query,
-        "num": 1
+        "num": 3
     })
     
     headers = {
